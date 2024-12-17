@@ -7,24 +7,22 @@ A modern restaurant reservation and menu management application, built as the ca
 
 ## 1. Login Screen
 
-<div align="center">
-  <img src="Screenshot/RegisterBlack.jpg" alt="Little Lemon App - Light Mode" style="max-width: 45%; display: inline-block;">
-  <img src="Screenshot/RegisterLight.jpg" alt="Little Lemon App - Dark Mode" style="max-width: 45%; display: inline-block;">
-</div>
+| Light Mode | Dark Mode |
+|------------|-----------|
+| <img src="Screenshot/RegisterBlack.jpg" alt="Little Lemon App - Light Mode" width="300"> | <img src="Screenshot/RegisterLight.jpg" alt="Little Lemon App - Dark Mode" width="300"> |
 
 ## 2. Home Screen
 
-<div align="center">
-  <img src="Screenshot/MenuBlack.jpg" alt="Little Lemon App - Light Mode" style="max-width: 45%; display: inline-block;">
-  <img src="Screenshot/MenuWhite.jpg" alt="Little Lemon App - Dark Mode" style="max-width: 45%; display: inline-block;">
-</div>
+| Light Mode | Dark Mode |
+|------------|-----------|
+| <img src="Screenshot/MenuBlack.jpg" alt="Little Lemon App - Light Mode" width="300"> | <img src="Screenshot/MenuWhite.jpg" alt="Little Lemon App - Dark Mode" width="300"> |
 
 ## 3. Profile Screen
 
-<div align="center">
-  <img src="Screenshot/LogoutBlack.jpg" alt="Little Lemon App - Light Mode" style="max-width: 45%; display: inline-block;">
-  <img src="Screenshot/LogoutWhite.jpg" alt="Little Lemon App - Dark Mode" style="max-width: 45%; display: inline-block;">
-</div>
+| Light Mode | Dark Mode |
+|------------|-----------|
+| <img src="Screenshot/LogoutBlack.jpg" alt="Little Lemon App - Light Mode" width="300"> | <img src="Screenshot/LogoutWhite.jpg" alt="Little Lemon App - Dark Mode" width="300"> |
+
 
 ## 🛠 Features  
 ### 🌟 Onboarding & Navigation  
