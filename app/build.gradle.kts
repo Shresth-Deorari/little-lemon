@@ -61,17 +61,9 @@ dependencies {
     implementation(libs.androidx.datastore.preferences.rxjava3)
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
-
-    // Retrofit
-    implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
-
-    // Coroutines
+    implementation( "io.ktor:ktor-client-content-negotiation:2.1.3")
+    implementation( "io.ktor:ktor-serialization-kotlinx-json:2.1.3")
+    implementation("io.ktor:ktor-client-android:2.1.3")
+    implementation( "com.github.bumptech.glide:compose:1.0.0-beta01")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
-
-    // Lifecycle ViewModel Compose
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
-
-    // Coil for image loading
-    implementation("io.coil-kt:coil-compose:2.5.0")
 }

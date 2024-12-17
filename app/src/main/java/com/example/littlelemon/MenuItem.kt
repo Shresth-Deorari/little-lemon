@@ -1,12 +1,13 @@
 package com.example.littlelemon
 
-import com.google.gson.annotations.SerializedName
+import kotlinx.serialization.Serializable
 
+@Serializable
 data class MenuItem(
-    @SerializedName("id") val id: Int,
-    @SerializedName("title") val title: String,
-    @SerializedName("description") val description: String,
-    @SerializedName("price") val price: Double,
-    @SerializedName("image") val image: String,
-    @SerializedName("category") val category: String
+    val id: Int,
+    val title: String,
+    val description: String,
+    val price: Double,
+    val image: String,
+    val category: String
 )

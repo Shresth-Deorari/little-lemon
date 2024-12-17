@@ -12,8 +12,36 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.example.littlelemon.repository.DataStoreRepository
 import com.example.littlelemon.ui.theme.LittleLemonTheme
+import io.ktor.client.HttpClient
+import io.ktor.client.call.body
+import io.ktor.client.engine.android.Android
+import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
+import io.ktor.client.request.get
+import io.ktor.http.ContentType
+import io.ktor.serialization.kotlinx.json.json
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class MenuResponse(
+    val menu: List<MenuItem>
+)
 
 class MainActivity : ComponentActivity() {
+
+    private val client = HttpClient(Android){
+        install(ContentNegotiation){
+            json(contentType = ContentType("text", "plain"))
+        }
+    }
+
+    private suspend fun getMenu(): List<MenuItem> {
+        val response: MenuResponse = client
+            .get("https://raw.githubusercontent.com/Meta-Mobile-Developer-PC/Working-With-Data-API/main/menu.json")
+            .body()
+
+        return response.menu
+    }
+
     private lateinit var navController : NavHostController
     private lateinit var dataStore : DataStoreRepository
 
@@ -28,7 +56,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     navController = rememberNavController()
                     dataStore = DataStoreRepository(this)
-                    SetupNavGraph(navController, dataStore)
+                    SetupNavGraph(navController, dataStore, ::getMenu)
                 }
             }
         }

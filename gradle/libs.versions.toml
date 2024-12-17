@@ -1,5 +1,6 @@
 [versions]
 agp = "8.7.3"
+compose = "1.0.0-beta01"
 datastorePreferencesCore = "1.1.1"
 kotlin = "2.0.0"
 coreKtx = "1.15.0"
@@ -30,6 +31,7 @@ androidx-lifecycle-runtime-ktx-v251 = { module = "androidx.lifecycle:lifecycle-r
 androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleRuntimeKtxVersion" }
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
 androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+compose = { module = "com.github.bumptech.glide:compose", version.ref = "compose" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }

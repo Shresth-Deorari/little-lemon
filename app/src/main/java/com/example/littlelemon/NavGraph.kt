@@ -9,7 +9,8 @@ import com.example.littlelemon.repository.DataStoreRepository
 @Composable
 fun SetupNavGraph(
     navController: NavHostController,
-    dataStore : DataStoreRepository
+    dataStore : DataStoreRepository,
+    getMenu: suspend () -> List<MenuItem>
 ){
     NavHost(
         navController= navController,
@@ -22,7 +23,7 @@ fun SetupNavGraph(
             composable(
                 route = Screen.Home.route
             ){
-                HomeScreen(navController)
+                HomeScreen(navController, getMenu)
             }
             composable(
                 route = Screen.Profile.route,

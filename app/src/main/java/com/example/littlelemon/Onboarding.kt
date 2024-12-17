@@ -76,6 +76,8 @@ fun Onboarding(
                         focusManager.clearFocus()
                     }
                     )
+                }
+                .pointerInput(Unit){
                     detectDragGestures { _, _ ->
                         focusManager.clearFocus()
                     }
