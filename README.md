@@ -71,4 +71,10 @@ A modern restaurant reservation and menu management application, built as the ca
 
 ---
 
-## 📂 Project Structure  
+## 🎯 How to Run the App  
+1. Clone this repository:  
+   # git clone https://github.com/yourusername/little-lemon-app.git  
+
+2. Open the project in **Android Studio**.  
+
+3. Build and run the app on an emulator or physical device.  
