@@ -3,23 +3,23 @@ A modern restaurant reservation and menu management application, built as the ca
 
 ---
 
-##Screenshots
+## Screenshots
 
 ## 1. Login Screen
 
-| Light Mode | Dark Mode |
+| Dark Mode |  Light Mode |
 |------------|-----------|
 | <img src="Screenshot/RegisterBlack.jpg" alt="Little Lemon App - Light Mode" width="300"> | <img src="Screenshot/RegisterLight.jpg" alt="Little Lemon App - Dark Mode" width="300"> |
 
 ## 2. Home Screen
 
-| Light Mode | Dark Mode |
+| Dark Mode |  Light Mode |
 |------------|-----------|
 | <img src="Screenshot/MenuBlack.jpg" alt="Little Lemon App - Light Mode" width="300"> | <img src="Screenshot/MenuWhite.jpg" alt="Little Lemon App - Dark Mode" width="300"> |
 
 ## 3. Profile Screen
 
-| Light Mode | Dark Mode |
+| Dark Mode |  Light Mode |
 |------------|-----------|
 | <img src="Screenshot/LogoutBlack.jpg" alt="Little Lemon App - Light Mode" width="300"> | <img src="Screenshot/LogoutWhite.jpg" alt="Little Lemon App - Dark Mode" width="300"> |
 
